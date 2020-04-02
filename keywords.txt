@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For Timer
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+TimerMillis     KEYWORD2
+IsElapsed       KEYWORD2
+Reset           KEYWORD2
+Start           KEYWORD2
+Stop            KEYWORD2
+Set             KEYWORD2
+Get             KEYWORD2
+GetTimeout      KEYWORD2
+GetDelta        KEYWORD2
+GetLastMillis   KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+TimerMillis     KEYWORD2
+TM              KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ELAPSED         LITERAL1
+NOT_ELAPSED     LITERAL1
