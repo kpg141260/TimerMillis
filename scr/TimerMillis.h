@@ -12,10 +12,10 @@
     #define TIMER_MILLIS_H_
 
     #define DEFAULT_TO  100
-    #define ELAPSED     TRUE
-    #define NOT_ELAPSED FALSE
-    #define NOT_ACTIVE  FALSE
-    #define ACTIVE      TRUE
+    #define ELAPSED     true
+    #define NOT_ELAPSED false
+    #define NOT_ACTIVE  false
+    #define ACTIVE      true
 
     class TimerMillis {
         public:
@@ -153,7 +153,6 @@
             *******************************************************************************/ 
                 unsigned long GetDebugCounter ();
             #endif
-            //void TimerSetCallBack ()
         private:
             bool            _timer_active;
             unsigned long   _timeout;
