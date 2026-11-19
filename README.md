@@ -15,5 +15,3 @@ It provides the following methods:
 - **GetTimeout()** this method returns the value set as the timeout
 - **GetDelta()** this method returns the difference between the current millis count and th target timeout
 - **GetLastMillis ()** this method returns the last millis count e.g. after a reset() was issued 
-
-e
